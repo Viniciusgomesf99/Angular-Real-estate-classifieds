@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "first-app": {
+    "Angular-Real-estate-classifieds": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/first-app",
+            "outputPath": "dist/Angular-Real-estate-classifieds",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "first-app:build:production"
+              "buildTarget": "Angular-Real-estate-classifieds:build:production"
             },
             "development": {
-              "buildTarget": "first-app:build:development"
+              "buildTarget": "Angular-Real-estate-classifieds:build:development"
             }
           },
           "defaultConfiguration": "development"
